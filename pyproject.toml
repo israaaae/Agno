@@ -6,8 +6,15 @@ authors = [
     {name = "Israe KHOUI",email = "israekhoui9@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<4"
 dependencies = [
+    "python-dotenv (==1.1.0)",
+    "agno (==2.3.13)",
+    "fastapi[standard] (==0.115.0)",
+    "uvicorn (==0.32.0)",
+    "openai (==1.54.0)",
+    "pydantic (>=2.11.2,<3.0.0)",
+    "ag-ui-protocol (>=0.1.10,<0.2.0)"
 ]
 
 [tool.poetry]
