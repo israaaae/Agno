@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+agent-ui/
 # C extensions
 *.so
 
